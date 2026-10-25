@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Learn how the Tanzania STG app handles information, local preferences, notes, and privacy.">
+<title>Privacy Policy | Tanzania STG app</title>
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="stylesheet" href="style.css">
+<style>
+/* Privacy-page enhancements only; the shared landing-page design remains untouched. */
+.doc{max-width:850px;padding:clamp(24px,5vw,54px) clamp(18px,4vw,30px) 72px}
+.policy-hero{position:relative;overflow:hidden;padding:clamp(26px,5vw,42px);margin:0 0 28px;border:1px solid var(--border);border-radius:26px;background:radial-gradient(700px 260px at 100% 0%,var(--brand-soft),transparent 68%),var(--card);box-shadow:var(--shadow)}
+.policy-mark{display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border:1px solid var(--border);border-radius:999px;background:var(--bg);color:var(--brand);font-size:.78rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase}
+.policy-mark svg{width:17px;height:17px}
+.doc .policy-hero h1{font-size:clamp(2rem,6vw,3.15rem);letter-spacing:-.045em;line-height:1.08;margin:18px 0 12px}
+.policy-intro{max-width:650px;color:var(--muted);font-size:clamp(1rem,2.5vw,1.1rem);margin:0!important}
+.policy-promise{display:flex;align-items:flex-start;gap:13px;margin-top:24px;padding:15px 17px;border-radius:16px;background:var(--brand-soft);color:var(--text);font-size:.94rem}
+.policy-promise .shield{flex:0 0 30px;display:grid;place-items:center;width:30px;height:30px;border-radius:10px;background:var(--card);color:var(--brand);font-weight:900}
+.policy-promise p{margin:0!important}
+.policy-section{padding:19px 21px;margin:14px 0;border:1px solid var(--border);border-radius:18px;background:var(--card);box-shadow:0 5px 18px rgba(15,23,42,.035)}
+.doc .policy-section h2{display:flex;align-items:flex-start;gap:11px;margin:0 0 10px;font-size:1.12rem;line-height:1.45;letter-spacing:-.01em}
+.section-number{flex:0 0 29px;display:inline-grid;place-items:center;width:29px;height:29px;border-radius:10px;background:var(--brand-soft);color:var(--brand);font-size:.78rem;font-weight:800}
+.doc .policy-section p{color:var(--muted);margin:.7rem 0}
+.doc .policy-section p:last-child{margin-bottom:0}
+.doc .policy-section strong{color:var(--text)}
+.doc .policy-section ul{padding-left:1.3rem;color:var(--muted)}
+.doc .policy-section li{padding-left:2px;margin:.55rem 0}
+.doc .policy-section li::marker{color:var(--brand)}
+.policy-contact{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:12px;padding:15px 16px;border:1px solid var(--border);border-radius:14px;background:var(--bg)}
+.contact-icon{display:grid;place-items:center;flex:0 0 42px;width:42px;height:42px;border-radius:13px;background:var(--brand-soft);color:var(--brand);font-size:1.2rem}
+.policy-contact small{display:block;color:var(--muted);font-size:.78rem}
+.policy-contact a{font-weight:750;text-decoration-thickness:1px;text-underline-offset:3px;overflow-wrap:anywhere}
+.policy-endnote{padding:16px 18px;margin-top:22px;border-left:4px solid var(--brand);border-radius:0 13px 13px 0;background:var(--brand-soft);color:var(--text);font-size:.92rem}
+.doc .back{display:inline-flex;align-items:center;gap:8px;padding:11px 15px;border:1px solid var(--border);border-radius:12px;background:var(--card);transition:transform .2s ease,border-color .2s ease}
+.doc .back:hover{transform:translateX(-3px);border-color:var(--brand)}
+/* Staggered entrance for each section, with no-JS and reduced-motion fallbacks. */
+.policy-animate{animation:policyEnter .65s cubic-bezier(.2,.7,.2,1) both;animation-delay:var(--delay,0ms)}
+@keyframes policyEnter{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:520px){.policy-section{padding:16px}.policy-hero{border-radius:20px}.policy-promise{padding:13px}.policy-contact{align-items:flex-start}}
+@media(prefers-reduced-motion:reduce){.policy-animate{animation:none!important}.doc .back{transition:none}}
+</style>
+</head>
+<body>
+<main class="doc">
+  <header class="policy-hero policy-animate" style="--delay:0ms">
+    <h1>Privacy Policy</h1>
+  </header>
+
+  <section class="policy-section policy-animate" style="--delay:70ms"><h2><span class="section-number">01</span>Introduction</h2>
+    <p>Tanzania STG app (“the App”) is an independently developed Android application that provides convenient access to Tanzania’s Standard Treatment Guidelines (STG) and related clinical reference information for educational and clinical reference purposes.</p>
+    <p>This Privacy Policy explains how information is handled when you use the App. The App is developed and maintained in Tanzania by Dr. Reward Emmanuel Matata, M.D. (“the Developer,” “we,” “us,” or “our”).</p>
+    <p>By installing or using the App, you acknowledge that you have read and understood this Privacy Policy.</p>
+  </section>
+
+  <section class="policy-section policy-animate" style="--delay:120ms"><h2><span class="section-number">02</span>Information We Collect</h2>
+    <p>We do not collect or request personal information from users. The App does not include user accounts, registration, sign-in functionality, advertising services, analytics tools, or tracking technologies.</p>
+    <p>We do not collect personal identifiers, contact information, location data, device identifiers, usage analytics, or patient health information. The App is designed to function without transmitting user information to external servers.</p>
+  </section>
+
+  <section class="policy-section policy-animate" style="--delay:170ms"><h2><span class="section-number">03</span>Information Stored on Your Device</h2>
+    <p>To support its features, the App may store preferences and content locally on your device, such as:</p>
+    <ul><li><strong>Bookmarks:</strong> topics or sections you save for quick access.</li><li><strong>Personal notes:</strong> notes you create within the App.</li><li><strong>Recently viewed sections:</strong> shortcuts to content you accessed before.</li><li><strong>Display preferences:</strong> settings such as dark mode and text size.</li></ul>
+    <p>This information remains on your device and is not sent to the Developer or third parties by the App. It may be permanently deleted if you clear the App’s storage, uninstall the App, or remove its local data. Please keep separate copies of anything you need to preserve.</p>
+  </section>
+
+  <section class="policy-section policy-animate" style="--delay:220ms"><h2><span class="section-number">04</span>Internet Connectivity and Third-Party Services</h2>
+    <p>The App is designed to work without an internet connection. It does not intentionally transmit personal information to external servers and does not integrate third-party advertising, analytics, or tracking services.</p>
+    <p>If a future version introduces online functionality or services that materially change information handling, this policy will be updated. Operating systems and app distribution platforms may independently process technical information under their own privacy policies; that processing is outside the App’s control.</p>
+  </section>
+
+  <section class="policy-section policy-animate" style="--delay:270ms"><h2><span class="section-number">05</span>Protecting Patient Information</h2>
+    <p>The App may provide a notes feature for personal reference. However, notes are stored locally and are <strong>not encrypted by the App</strong>.</p>
+    <p>Do not enter patient names, identification numbers, contact details, photographs, or other information that could identify a patient. Healthcare professionals remain responsible for safeguarding confidential patient information and complying with applicable professional, ethical, and legal requirements.</p>
+    <p>The Developer cannot guarantee the confidentiality of locally stored notes if another person gains access to your device or its data.</p>
+  </section>
+
+  <section class="policy-section policy-animate" style="--delay:320ms"><h2><span class="section-number">06</span>Data Security and Retention</h2>
+    <p>Because the App does not collect personal information, the Developer does not maintain a database of users’ personal information. Information saved by the App remains on the device where it was created.</p>
+    <p>Its security may depend on your device’s screen lock, operating system, storage protection, and other security settings. The Developer does not have remote access to, or the ability to recover, locally stored bookmarks, notes, or preferences.</p>
+  </section>
+
+  <section class="policy-section policy-animate" style="--delay:370ms"><h2><span class="section-number">07</span>Children’s Privacy</h2>
+    <p>The App is intended primarily for healthcare professionals, medical students, and others seeking clinical reference information. It is not specifically directed at children and does not knowingly collect personal information from children or other users.</p>
+  </section>
+
+  <section class="policy-section policy-animate" style="--delay:420ms"><h2><span class="section-number">08</span>Third-Party Distribution Platforms</h2>
+    <p>The App may be distributed through platforms such as Google Play or other Android application repositories. These platforms may independently process information relating to downloads, installations, updates, or account activity under their own privacy policies. Such processing is separate from the App’s offline functionality and is not controlled by the Developer.</p>
+  </section>
+
+  <section class="policy-section policy-animate" style="--delay:470ms"><h2><span class="section-number">09</span>Changes to This Policy</h2>
+    <p>This Privacy Policy may be revised to reflect changes in the App, applicable legal requirements, or privacy practices. Revised wording will be published on this page. We encourage users to review the policy periodically.</p>
+  </section>
+
+  <section class="policy-section policy-animate" style="--delay:520ms"><h2><span class="section-number">10</span>Contact the Developer</h2>
+    <p>If you have questions, concerns, or requests relating to this Privacy Policy, please contact the Developer using the details below.</p>
+    <div class="policy-contact"><span class="contact-icon" aria-hidden="true">✉</span><div><small>Developer</small><strong>Dr. Reward Emmanuel Matata, M.D.</strong><br><a href="mailto:reward_matata@outlook.com">reward_matata@outlook.com</a></div></div>
+  </section>
+
+  <a class="back policy-animate" style="--delay:620ms" href="index.html" aria-label="Back to the Tanzania STG app landing page">← Back to the app page</a>
+</main>
+</body>
+</html>

@@ -1,40 +1,28 @@
-# Tanzania STG Reference
+# Tanzania STG app
 
-An offline Android reference application for Tanzania's Standard Treatment Guidelines (STG) and National Essential Medicines List (NEMLIT).
+Website and Android downloads for the **Tanzania STG app**, an independent offline reference for the Tanzania Standard Treatment Guidelines (STG), 7th Edition (August 2026).
 
-## About
+- **Website:** https://rewmat.github.io/TZ-STG-Website/
+- **Download the APK:** https://github.com/rewmat/TZ-STG-Website/releases/latest
+- **Privacy policy:** https://rewmat.github.io/TZ-STG-Website/privacy.html
 
-Tanzania STG Reference is an independently developed application designed to help healthcare professionals conveniently consult treatment guideline information.
+## About the app
+- All 27 chapters and more than 1,000 sections of the STG, shown as published
+- Full-text search, bookmarks, private notes, dark mode and adjustable text size
+- Dose and fluid calculators that use only rules printed in the STG, with the source shown for every result
+- Works fully offline. No account, no ads, no tracking
+- Requires Android 7.0 or newer
 
-## Features
+## Install
+1. Download `app-release.apk` from the [latest release](https://github.com/rewmat/TZ-STG-Website/releases/latest).
+2. Open it. If Android asks, allow your browser or Files app to install unknown apps.
+3. Tap **Install**, then open **Tanzania STG app**.
 
-- Offline access to available reference content
-- Searchable treatment guideline information
-- Lightweight and easy-to-use interface
-- Android APK distribution
+## Important
+This is an independent app. It is not an official publication of, and is not endorsed by, the Ministry of Health, Tanzania. It is for reference only. Always confirm doses and recommendations against the official guideline and use your professional clinical judgement.
 
-## Download
+## Contact
+Dr. Reward Emmanuel Matata, M.D. · reward_matata@outlook.com
 
-The Android APK will be published in the [Releases](https://github.com/rewmat/TZ-STG-Website/releases) section when available.
-
-## Privacy
-
-The application is designed to work offline without collecting, transmitting, or sharing personal information.
-
-Read our [Privacy Policy](privacy.html).
-
-## Developer
-
-Developed in Tanzania and maintained by Dr. Reward Emmanuel Matata, M.D.
-
-## Disclaimer
-
-This application is an independent reference tool. Always consult the latest official Tanzanian Ministry of Health guidelines and exercise professional clinical judgment. It does not replace official guidance, clinical training, or individual patient assessment.
-
-## Source Code
-
-The application source code is maintained in a separate private repository.
-
-## License
-
-Unless otherwise stated, the materials in this repository are provided for distribution and informational purposes only.
+## Copyright
+© 2026 Reward Emmanuel Matata (app design and software). All rights reserved. Guideline content: © Ministry of Health, Tanzania, and remains the property of its rights holders. The app's source code is kept in a separate private repository.
