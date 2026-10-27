@@ -4,6 +4,7 @@ Website and Android downloads for the **Tanzania STG app**, an independent offli
 
 - **Website:** https://rewmat.github.io/TZ-STG-Website/
 - **Download the APK:** https://github.com/rewmat/TZ-STG-Website/releases/latest
+- **Web app for PC (works offline):** https://rewmat.github.io/TZ-STG-Website/app/
 - **Privacy policy:** https://rewmat.github.io/TZ-STG-Website/privacy.html
 
 ## About the app
@@ -17,6 +18,12 @@ Website and Android downloads for the **Tanzania STG app**, an independent offli
 1. Download `app-release.apk` from the [latest release](https://github.com/rewmat/TZ-STG-Website/releases/latest).
 2. Open it. If Android asks, allow your browser or Files app to install unknown apps.
 3. Tap **Install**, then open **Tanzania STG app**.
+
+## Use it on a computer
+1. Open the [web app](https://rewmat.github.io/TZ-STG-Website/app/) in Google Chrome or Microsoft Edge.
+2. Wait for **Ready to use offline**, then click **Install** (or the install icon in the address bar) to open it like a normal program.
+
+The `app/` folder in this repository is the built web app. It is generated from the private app source with `npm run build:web`, so do not edit it by hand.
 
 ## Important
 This is an independent app. It is not an official publication of, and is not endorsed by, the Ministry of Health, Tanzania. It is for reference only. Always confirm doses and recommendations against the official guideline and use your professional clinical judgement.
